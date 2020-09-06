@@ -2,9 +2,10 @@ import pandas as pd
 """
 感知器实现简单逻辑运算：AND,OR,NOT,XOR
 """
+# weight for AND
 W1 = 1.0
-W2 = 1.0
-Bias = -2.0
+W2 = 2.0
+Bias = 3.0
 
 # generate and check output
 def AND(test_inputs, test_outputs):
